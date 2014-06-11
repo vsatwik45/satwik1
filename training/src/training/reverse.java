@@ -10,7 +10,9 @@ class reverse
  
       System.out.println("Enter a string");
       s1 = in.nextLine();
- 
+      /**
+       * As i said,  create String utility class put these logic to there.  
+       */
       int length = s1.length();
  
       for ( int i = length - 1 ; i >= 0 ; i-- )

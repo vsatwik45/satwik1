@@ -14,7 +14,10 @@ class compare
  
       System.out.println("Enter second string");
       s2 = in.nextLine();
- 
+      /**
+       * put this logic to seperate public  static method,  so this logic can be used by any other class 
+       * as an string utility, compare two string size
+       */
       if ( s1.compareTo(s2) > 0 )
          System.out.println("First string is greater than second.");
       else if ( s1.compareTo(s2) < 0 )
@@ -22,4 +25,5 @@ class compare
       else   
          System.out.println("Both strings are equal.");
    }
+  
 }

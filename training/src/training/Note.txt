@@ -1,0 +1,2 @@
+As i said u can put these Utility method to one class,  
+Create one String Util Class, so this class can provide these operation. 
